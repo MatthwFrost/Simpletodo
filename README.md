@@ -13,15 +13,14 @@ command that makes the process faster.
     > cd ~
     > git clone https://github.com/MatthwFrost/Simpletodo.git
     > nano .bashrc
-    > source ~/.todo.sh
+    > source ~/simpletodo/.todo.sh
 
 
 
 # How to use
 
-- Type **todo** with a todo item surrounded with ""
-    '''
-    $ todo "This is a todo item"
-    '''
-- If file doesnt excist, todo.md will be created.
+- Type **todo** with an item you want to input sorrounded with ""
+    > todo "This is a task"
+
+- Using todo without a item, will make a base file. (Either way, if the file does not exist, one will be created, called "todo.md"
 
