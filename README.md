@@ -12,8 +12,6 @@ To Come.
 # How to use
 
 - Type **todo** with a todo item surrounded with ""
-    '''
-    $ todo "This is a todo item"
-    '''
+    > $ todo "This is a todo item"
 - If file doesnt excist, todo.md will be created.
 
