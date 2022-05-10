@@ -16,7 +16,9 @@ This command allows you to input tasks into a file by one command, **todo**
 # How to use
 
 - Type a the command **todo** followed by a task, for exmaple:
+
     > todo "Remember to add this"
+
 - todo will create a 'todo.md' file, if one doesn't exist.
 - You can create the 'todo.md' file without any text, by typing todo
     > todo
