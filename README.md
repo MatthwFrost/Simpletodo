@@ -1,8 +1,10 @@
 # Simple todo command
 
-This command allows you to input tasks into a file by one command, **todo**
+This command allows you to input tasks into a file by one command, **todo**.
 
-    > todo "This is a command"
+```
+    todo "This is a command"
+```
 
 # Install
 
@@ -15,6 +17,19 @@ This command allows you to input tasks into a file by one command, **todo**
     source ~/simpletodo/.todo.sh
 ```
 
+## Possible problems
+
+When I first built this script, it didn't source correctly.
+```
+todo: command not found
+```
+
+I found a fix, by adding this line of code into my .bash_profile
+
+```
+[ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
+```
+
 # How to use
 
 - Type a the command **todo** followed by a task, for exmaple:
@@ -25,7 +40,7 @@ This command allows you to input tasks into a file by one command, **todo**
 
 - todo will create a 'todo.md' file, if one doesn't exist.
 - You can create the 'todo.md' file without any text, by typing todo,
-  (see how to change the name [Changing names](#changing-names))
+  (see how to change the name, [Changing names](#changing-names))
     ```todo```
 
 ## Changing names
@@ -38,7 +53,6 @@ This command allows you to input tasks into a file by one command, **todo**
     - At the top of the file you will see, 'NAME'.
     > NAME="todo.sh"
     - Input the name you wish to name your todo files.
-
 ```
 
 #### Todo title
