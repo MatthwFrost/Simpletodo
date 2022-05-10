@@ -24,12 +24,13 @@ This command allows you to input tasks into a file by one command, **todo**
     ```
 
 - todo will create a 'todo.md' file, if one doesn't exist.
-- You can create the 'todo.md' file without any text, by typing todo
+- You can create the 'todo.md' file without any text, by typing todo,
+  (see how to change the name [#how-to-use])
     ```todo```
 
-#### Changing names
+## Changing names
 
-##### File name
+#### File name
 - If you want to chagne the names of the 'todo.md' files:
 ```
     > cd ~/Simpletodo
@@ -37,10 +38,13 @@ This command allows you to input tasks into a file by one command, **todo**
     - At the top of the file you will see, 'NAME'.
     > NAME="todo.sh"
     - Input the name you wish to name your todo files.
+
 ```
 
-##### Todo title
+#### Todo title
+
 - The process is the same, however, chaning the 'TITLE' variable
+
 ```
     TITLE="your_title_name"
 ```
