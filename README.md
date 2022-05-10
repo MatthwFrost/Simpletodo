@@ -44,11 +44,12 @@ I found a fix, by adding this line of code into my .bash_profile
     ```
     todo
     ```
+(This will create the todo file in your current directory)
 
 ## Changing names
 
 #### File name
-- If you want to chagne the names of the 'todo.md' files:
+- If you want to change the names of the 'todo.md' files:
 
 ```
     cd ~/Simpletodo
@@ -69,3 +70,10 @@ Input the name you wish (Avoid spaces)
 ```bash
     TITLE="your_title_name"
 ```
+
+## Contact
+
+Please feel free to create an 'issue' if you have any ideas or problems with
+the script
+
+
