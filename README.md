@@ -10,13 +10,10 @@ command that makes the process faster.
 
 *Only works on macOS/Linus at the moment.*
 
-> cd ~
-
-> git clone https://github.com/MatthwFrost/Simpletodo.git
-
-> nano .bashrc
-
-> source ~/.todo.sh
+    > cd ~
+    > git clone https://github.com/MatthwFrost/Simpletodo.git
+    > nano .bashrc
+    > source ~/.todo.sh
 
 
 
