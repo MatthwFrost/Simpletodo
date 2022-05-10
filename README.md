@@ -14,7 +14,7 @@ This command allows you to input tasks into a file by one command, **todo**.
     cd ~
     git clone https://github.com/MatthwFrost/Simpletodo.git
     nano .bashrc
-    source ~/simpletodo/.todo.sh
+    source ~/simpletodo/.todo.sh (paste this command into .bashrc)
 ```
 
 ## Possible problems
@@ -26,7 +26,7 @@ todo: command not found
 
 I found a fix, by adding this line of code into my .bash_profile
 
-```
+```bash
 [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 ```
 
@@ -41,24 +41,31 @@ I found a fix, by adding this line of code into my .bash_profile
 - todo will create a 'todo.md' file, if one doesn't exist.
 - You can create the 'todo.md' file without any text, by typing todo,
   (see how to change the name, [Changing names](#changing-names))
-    ```todo```
+    ```
+    todo
+    ```
 
 ## Changing names
 
 #### File name
 - If you want to chagne the names of the 'todo.md' files:
+
 ```
-    > cd ~/Simpletodo
-    > nano .todo.sh
-    - At the top of the file you will see, 'NAME'.
-    > NAME="todo.sh"
-    - Input the name you wish to name your todo files.
+    cd ~/Simpletodo
+    nano .todo.sh
 ```
+Input the name you wish (Avoid spaces)
+
+```bash
+    NAME="todo.sh"
+```
+
+- Replace "todo.sh" with the name you want
 
 #### Todo title
 
 - The process is the same, however, chaning the 'TITLE' variable
 
-```
+```bash
     TITLE="your_title_name"
 ```
