@@ -1,4 +1,4 @@
-# Simple todo command
+# Simple todo
 
 This command allows you to input tasks into a file by one command, **todo**.
 
