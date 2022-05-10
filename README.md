@@ -25,7 +25,7 @@ This command allows you to input tasks into a file by one command, **todo**
 
 - todo will create a 'todo.md' file, if one doesn't exist.
 - You can create the 'todo.md' file without any text, by typing todo,
-  (see how to change the name [#how-to-use])
+  (see how to change the name #how-to-use)
     ```todo```
 
 ## Changing names
