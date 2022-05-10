@@ -23,5 +23,9 @@ command that makes the process faster.
     
     > todo "This is a task"
 
-- Using todo without a item, will make a base file. (Either way, if the file does not exist, one will be created, called "todo.md"
+- Using todo without a task item, will make a base file. (Either way, if the file does not exist, one will be created, called "todo.md"
+- You are able to edit the file name:
+
+    > cd simpletodo
+    > nano .todo.sh
 
