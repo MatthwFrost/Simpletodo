@@ -1,6 +1,7 @@
 # Simple todo
 
-This command allows you to input tasks into a file by one command, **todo**.
+This command allows you to input tasks into a file by one command, **todo**. This use case
+is probably very specific to my use, but I thought I would share it.
 
 ```
     todo "This is a command"
