@@ -20,17 +20,17 @@ fi
 
 
 function todo(){
-    MESSAGE=$1
+    MESSAGE="\t- $1"
     TODONAME="/$NAME.md"
     FILENAME="${PWD}/$TODONAME"
 
     if [ -f "todo.md" ]; then
-        echo "  - $MESSAGE" >> $FILENAME
+        echo -e "$MESSAGE" >> $FILENAME
 
     else
         touch "$FILENAME"
         echo "# $TITLE" >> $FILENAME
         echo "" >> $FILENAME
-        echo "  - $MESSAGE" >> $FILENAME
+        echo -e "$MESSAGE" >> $FILENAME
     fi
 }
